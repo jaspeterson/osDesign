@@ -4,7 +4,7 @@
 CC = gcc
 
 # if it gives an error and asks for -fPIC add the -no-pie flag to the CFLAGS 
-CFLAGS = -g -Wall
+CFLAGS = -g -Wall -no-pie
 
 all: shell
 
